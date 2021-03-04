@@ -1,0 +1,220 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.clearfix {
+    width: 980px;
+}
+
+.hidden>div {
+    display: none;
+}
+
+.visible>div {
+    display: block;
+}
+
+#content {
+    display: none;
+}
+
+
+/*----------------------------------  Header ----------------------------*/
+
+
+/*----------------------------------  Header ----------------------------*/
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/walp-top.png);
+    display: table;
+    padding: 10px 0;
+    color: white;
+    background-position: 30% 45%;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    float: left;
+    margin-top: 20px;
+}
+
+img#logo {
+    width: 190px;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+}
+
+#menu-button {
+    border-radius: 10px;
+    padding: 0.2em 2.5em;
+    transition-duration: 0.8s;
+}
+
+#menu-button:hover {
+    background-color: white;
+    color: rgb(245, 123, 27);
+}
+
+.menu ul {
+    width: auto;
+    line-height: 60px;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    transition: 1s;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 15px 1px;
+    float: right;
+    margin-left: 2vh;
+}
+
+.menu ul li a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.header-h1 h1 {
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.header-h1 {
+    padding-top: 30vh;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header-h1 ul li {
+    list-style: none;
+}
+
+.budget-button ul {
+    line-height: 60px;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+.budget-button ul li {
+    width: 980px;
+    display: inline-block;
+    padding: 15px 15px;
+}
+
+.budget-button ul li a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.budget-button #menu-button {
+    border-radius: 10px;
+    padding: 0.4em 2.5em;
+    transition-duration: 0.8s;
+}
+
+#aaaaa {
+    border-bottom: 2px solid rgb(245, 123, 27);
+    border-bottom: 2px solid rgb(30, 50, 74);
+    border-bottom: 2px solid rgb(61, 138, 134);
+    border-bottom: 2px solid rgb(248, 248, 248);
+}
+
+
+/*----------------------------------  Content ----------------------------*/
+
+
+/*----------------------------------  Content ----------------------------*/
+
+.company h1 {
+    width: 460px;
+    font-weight: bolder;
+    font-size: 6vh;
+}
+
+.company h2 {
+    width: 460px;
+    font-weight: bolder;
+    font-size: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 8vh;
+}
+
+.company p {
+    width: 440px;
+    font-size: 2.5vh;
+}
+
+
+/*----------------------------------  Services ----------------------------*/
+
+
+/*----------------------------------  Services ----------------------------*/
+
+
+/*----------------------------------  Services ----------------------------*/
+
+
+/*----------------------------------  Services ----------------------------*/
+
+.services-walp {
+    background: #1E324A;
+}
+
+.services h1 {
+    text-align: left;
+}
+
+.services-input {
+    text-align: center;
+}
+
+input#service[type="image"] {
+    color: transparent;
+    text-shadow: 0 0 0 rgb(255, 255, 255);
+    width: 200px;
+    cursor: pointer;
+    padding
+}
+
+input#service[type="image"]:focus {
+    outline: none;
+}
+
+input#service:focus+div#content {
+    display: block;
+}
